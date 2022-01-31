@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Página de login</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-login">
+
+        <div class="left-div">
+            <div class="txt-cima">
+                <h1>Não perca tempo e junte-se a nós!<br></h1>
+            </div>
+            <div class="txt-baixo">
+                <h2>A equipe que mais cresce no Brasil.</h2>
+            </div>
+        </div>
+
+        <div class="right-div">
+
+            <div class="card-login">
+    
+                <h1>Acessar</h1>
+                <form name="Login" action="login.php" method="POST">
+                    <div class="login-div">
+                        <p class="log"><label>Login: </label>
+                        <input type="email" name="EmailUsuario" placeholder="Email"></p>
+                    </div>
+    
+                    <div class="login-div">
+                        <p class="log"><label>Senha: </label>
+                        <input type="password" name="SenhaUsuario" placeholder="Senha"></p>
+                    </div>
+    
+				<em><h4>Não tem uma conta? <a href="form-cadastro.html">Cadastre-se.</a></h4></em>
+    
+                    <p class="button"><input id="botao" type="submit" name="enviar" value="Entrar"></p>
+                </form>
+    
+            </div>
+    
+        </div>
+    </div>
+</body>
+</html>

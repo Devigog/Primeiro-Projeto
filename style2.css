@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(/imagens/back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Lato', sans-serif;
+}
+.main-div{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main-div .button{
+    text-align: center;
+}
+.central-div{
+    height: 100vh;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cad-div{
+    background-color: rgb(59, 65, 80);
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
+    width: 40%;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cad-div h3{
+    margin-bottom: 12px;
+    color: rgb(132, 215, 226);
+}
+.central-div h2{
+    color:  rgb(132, 215, 226);
+    text-transform: uppercase;
+}
+.info-div{
+    margin-left: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.info-div input, select{
+    width: 90%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(81, 104, 114);
+    color: snow;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
+}
+.info-div input::placeholder{
+    color: rgb(175, 172, 172);
+}
+.info-div label{
+    color: snow;
+}
+#botao{
+    width: 83%;
+    margin-bottom: 10px;
+    padding: 9px 0px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 3px 20px rgba(1, 218, 247, 0.5);
+    background: rgb(102, 177, 187);
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: rgb(59, 65, 80);
+    letter-spacing: 3px;
+    transition: 0.3s;
+}
+.info-div input:focus{
+    background: rgb(87, 117, 129);
+    box-shadow: 0px 10px 40px rgba(87, 117, 129, 0.5);
+}
+#botao:hover{
+    width: 75%;
+    transition: 0.7s;
+}

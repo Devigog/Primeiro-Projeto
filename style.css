@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(/imagens/corinne-kutz-tMI2_-r5Nfo-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Lato', sans-serif;
+}
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left-div{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.right-div{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-login{
+    width: 40%;
+    background-color: rgb(59, 65, 80);
+    border-radius: 8px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+.card-login h1, .button, h4{
+    text-align: center;
+    color: rgb(132, 215, 226);
+}
+.login-div{
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.login-div input{
+    width: 90%;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    outline: none;
+    color: snow;
+    background-color: rgb(81, 104, 114);
+}
+.login-div input::placeholder{
+    color: rgb(175, 172, 172);
+}
+.login-div label{
+    color: snow;
+}
+.login-div input:focus{
+    background: rgb(87, 117, 129);
+    box-shadow: 0px 10px 40px rgba(87, 117, 129, 0.5);
+}
+a{
+    color: rgb(76, 247, 105);
+    text-decoration: none;
+}
+a:visited{
+    color: rgb(76, 247, 105);
+}
+a:active{
+    color: rgb(211, 48, 48);
+}
+div .log, h4{
+    padding: 20px 0px;
+}
+#botao{
+    width: 89%;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 3px 20px rgba(1, 218, 247, 0.5);
+    padding: 20px 0px;
+    outline: none;
+    cursor: pointer;
+    background: rgb(102, 177, 187);
+    text-transform: uppercase;
+    font-weight: 900;
+    color: rgb(59, 65, 80);
+    letter-spacing: 3px;
+    transition: 0.3s;
+}
+#botao:hover{
+    width: 80%;
+    transition: 0.7s;
+}
+.txt-cima, .txt-baixo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+    color: rgb(177, 216, 221);
+    font-size: xx-large;
+    margin-left: 20px;
+}
+h4{
+    font-size: small;
+}
